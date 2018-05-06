@@ -1,0 +1,359 @@
+// -----------------------------  PROJECTS.HTML --------------------
+.header__image-padding {
+  padding-top: 2rem;
+}
+
+.header__text-padding {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.header__project__padding {
+  padding-top: 4rem;
+}
+
+.nav__item__projects {
+  // color: black;
+  list-style: none;
+  font-size: 19px;
+
+  & a {
+    color: black;
+  }
+}
+
+.projects__container {
+  background-color: white;
+}
+
+.fadeInNeed {
+  display: table-cell;
+}
+
+.fadeInSolution {
+  display: table-cell;
+}
+
+.header__project {
+  font-family: Roboto;
+  color: $dark;
+  font-size: 17px;
+
+  &__title {
+    display: block;
+    max-width: 40rem;
+    font-family: morion;
+    letter-spacing: .05rem;
+    font-size: 2.8rem;
+    padding-top: 2rem;
+    text-align: left;
+  }
+
+  &__image {
+    margin: auto;
+  }
+
+  &__tag {
+    letter-spacing: .1rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+
+  &__date {
+    letter-spacing: .1rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    text-align: right;
+  }
+
+  &__need {
+    letter-spacing: .1rem;
+    font-size: 15px;
+  }
+
+  &__needInfo {
+    letter-spacing: .06rem;
+    font-size: 18px;
+  }
+
+  &__needContainer {
+    font-size: 16px;
+  }
+
+  &__solution {
+    letter-spacing: .1rem;
+    font-size: 15px;
+  }
+
+  &__solutionInfo {
+    letter-spacing: .06rem;
+    font-size: 18px;
+  }
+}
+
+.header__project__slider {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 85vw;
+}
+
+.project__how {
+  line-height: 1.8rem;
+  font-size: .9rem;
+  padding: 5rem 0;
+  font-family: Roboto;
+
+  &__title {
+    letter-spacing: .1rem;
+    font-size: 15px;
+  }
+
+  &__text {
+    letter-spacing: .06rem;
+    font-size: 15px;
+  }
+}
+
+.header__project__imagesContainer {
+  margin: auto;
+  width: 85vw;
+  font-size: 0;
+  flex-flow: row wrap;
+  display: flex;
+}
+
+.header__project__imagesContainer div {
+  flex: auto;
+  width: 200px;
+}
+
+.header__project__imagesContainer div .header__project__extraImage1 {
+  padding-right: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.header__project__imagesContainer div .header__project__extraImage2 {
+  padding-left: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.w3-animate-fading {
+  animation: fadee 1s forwards ease;
+}
+
+.customNavigation {
+  margin-top: 9rem;
+  margin-bottom: 2rem;
+}
+
+// .customNavigation a{
+//   -webkit-user-select: none;
+//   -khtml-user-select: none;
+//   -moz-user-select: none;
+//   -ms-user-select: none;
+//   user-select: none;
+//   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+// }
+
+.related__work {
+  font-family: Roboto;
+  font-size: 20px;
+  letter-spacing: .1rem;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+  background: white;
+  float: right;
+
+  &:hover {
+    background: white;
+  }
+}
+
+.item__info {
+  display: none;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  // max-width: 1000px;
+  position: relative;
+  // margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: block;
+}
+
+/* Next & previous buttons */
+.next2 {
+  margin-left: 5px;
+  cursor: pointer;
+  position: absolute;
+  right: 1.2rem;
+  top: calc(50% - 20px);
+  width: auto;
+  margin-top: -22px;
+  padding: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-image: url(../images/sliderLeft.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2.3rem;
+}
+
+.previous {
+  margin-left: 5px;
+  cursor: pointer;
+  position: absolute;
+  left: 1.2rem;
+  top: calc(50% - 20px);
+  width: auto;
+  margin-top: -22px;
+  padding: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-image: url(../images/sliderLeft.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+  background-size: 2.3rem;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fadee {
+
+  0% { opacity: 0; }
+
+  100% { opacity: 1; }
+}
+
+.slideshow {
+  position: relative;
+}
+
+@media only screen and (max-width: 1024px)  {
+
+
+}
+
+@media only screen and (max-width: 950px)  {
+
+
+}
+
+@media only screen and (max-width: 850px)  {
+
+}
+
+@media only screen and (max-width: 640px)  {
+
+  .header__project__padding {
+    padding-top: 1rem;
+  }
+
+  .align__center {
+    justify-content: center;
+  }
+
+  .header__project__date {
+    text-align: left;
+    padding-top: 0;
+  }
+
+  .header__project__solution {
+    text-align: left;
+    padding-bottom: 2rem;
+  }
+
+  .header__project__tag {
+    padding-bottom: 0;
+  }
+
+  .project__how__title {
+    padding-bottom: 2rem;
+  }
+
+  .header__project__need {
+    padding-bottom: 2rem;
+  }
+
+}
+
+@media only screen and (max-width: 550px)  {
+
+
+}
+
+.project__overlay__title {
+  text-align: center;
+  display: none;
+  opacity: 0;
+  font-size: 34px;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: calc(50% - 10px);
+  z-index: 22;
+  color: white;
+  font-family: Roboto;
+}

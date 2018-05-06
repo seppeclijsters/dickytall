@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FOOTER" transform="translate(-1230.000000, -57.000000)" fill-rule="nonzero" fill="#1D2428">
+            <g id="SOCIAL">
+                <g transform="translate(1230.000000, 57.000000)">
+                    <path d="M11.5,0.46 C5.4027,0.46 0.46,5.4027 0.46,11.5 C0.46,17.5973 5.4027,22.54 11.5,22.54 C17.5973,22.54 22.54,17.5973 22.54,11.5 C22.54,5.4027 17.5973,0.46 11.5,0.46 Z M14.1151,8.0891 L12.45565,8.0891 C12.259,8.0891 12.0405,8.34785 12.0405,8.6917 L12.0405,9.89 L14.11625,9.89 L13.8023,11.5989 L12.0405,11.5989 L12.0405,16.72905 L10.08205,16.72905 L10.08205,11.5989 L8.3053,11.5989 L8.3053,9.89 L10.08205,9.89 L10.08205,8.8849 C10.08205,7.4428 11.08255,6.27095 12.45565,6.27095 L14.1151,6.27095 L14.1151,8.0891 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

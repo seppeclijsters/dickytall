@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="DESKTOP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="06-CONTACT-OVERLAY" transform="translate(-1229.000000, -836.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="SOCIAL" transform="translate(1229.000000, 836.000000)">
+                <path d="M11.04,0 C4.9427,0 0,4.9427 0,11.04 C0,17.1373 4.9427,22.08 11.04,22.08 C17.1373,22.08 22.08,17.1373 22.08,11.04 C22.08,4.9427 17.1373,0 11.04,0 Z M13.6551,7.6291 L11.99565,7.6291 C11.799,7.6291 11.5805,7.88785 11.5805,8.2317 L11.5805,9.43 L13.65625,9.43 L13.3423,11.1389 L11.5805,11.1389 L11.5805,16.26905 L9.62205,16.26905 L9.62205,11.1389 L7.8453,11.1389 L7.8453,9.43 L9.62205,9.43 L9.62205,8.4249 C9.62205,6.9828 10.62255,5.81095 11.99565,5.81095 L13.6551,5.81095 L13.6551,7.6291 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,292 @@
+.projects__title {
+  pointer-events: none;
+  opacity: 1;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: $blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: morionregular;
+  font-size: 40px;
+  color: white;
+  // filter: blur(5px);
+}
+
+.overons__overlay2 {
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: -100vw;
+  width: 100vw;
+  height: 100vh;
+  background-color: $blue;
+}
+
+
+.overons__overlay {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: -100vw;
+  width: 100vw;
+  height: 100vh;
+  background-color: $dark;
+}
+
+.about__title {
+  margin-top: 6rem;
+  font-family: morionregular;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+
+.about__image {
+  transform-style: preserve-3d;
+  position: relative;
+  margin-top: 5rem;
+  height: 50rem;
+  // background-image: url(../images/aboutImageTablet.jpg);
+  background-image: url(../images/main-image3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tilt__image2 {
+  position: absolute;
+  left: calc(58% - 25rem);
+  bottom: 3rem;
+  width: 50rem;
+  height: 100%;
+  transform: translateY(0) translateX(-20%) translateZ(9rem);
+  background-image: url(../images/4_test.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+}
+
+.tilt__image1 {
+  position: absolute;
+  left: 15rem;
+  bottom: 1rem;
+  width: 17rem;
+  height: 90%;
+  transform: translateY(0) translateX(0) translateZ(4rem);
+  background-image: url(../images/5_test.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+}
+
+
+.dark__wrapper {
+  margin-top: -8rem;
+  background-color: $dark;
+}
+
+.fadeInIntro {
+  display: table-cell;
+}
+
+.about__hello {
+  padding-top: 5rem;
+  color: white;
+  font-family: Roboto;
+
+  &__title {
+    letter-spacing: .1rem;
+    font-weight: 800;
+  }
+
+  &__text {
+    line-height: 2rem;
+  }
+
+  &__detailText {
+    font-size: 34px;
+    font-family: morionregular;
+    margin-top: 5rem;
+    line-height: 2.5rem;
+  }
+}
+
+.about__strategy {
+  padding: 5rem 0;
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+
+  &__title {
+    letter-spacing: .1rem;
+
+    &-selected {
+      padding-bottom: .2rem;
+    }
+
+    &-unselected {
+      padding: .2rem 0;
+      color: #647478;
+    }
+  }
+
+  &__text {
+    line-height: 2rem;
+  }
+}
+
+.about__diensten {
+  margin-top: 5rem;
+  margin-bottom: 14rem;
+
+  &__title {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+
+  &__text {
+    font-size: 18px;
+    color: white;
+    line-height: 2rem;
+  }
+}
+
+.fadeInDienst {
+  display: table-cell;
+}
+
+.white__wrapper {
+  background-color: white;
+}
+
+.about__logos {
+  padding-bottom: 5rem;
+}
+
+.about__logo {
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile__delete {
+  visibility: visible;
+}
+
+.about__opinion {
+
+  &__image {
+    margin-top: -7rem;
+    height: 20rem;
+    background-image: url(../images/aboutImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__text {
+    min-height: 180px;
+    margin-top: 7rem;
+    font-family: morionregular;
+    font-size: 30px;
+    color: $dark;
+    text-align: right;
+  }
+
+  &__client {
+    margin-top: 1rem;
+    font-family: Roboto;
+    text-align: right;
+    font-size: 15px;
+  }
+
+  &__extra {
+    margin: 8rem 0 2rem 0;
+    font-family: Roboto;
+    font-size: 18px;
+  }
+
+  &__linesContainer {
+    margin-top: 1rem;
+  }
+
+  &__lines-selected {
+    cursor: pointer;
+    margin: 1rem;
+    width: 3rem;
+    height: 1rem;
+    background-image: url(../images/overons_line_selected.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 1rem;
+  }
+
+  &__lines-unselected {
+    cursor: pointer;
+    margin: 1rem;
+    width: 3rem;
+    height: 1rem;
+    background-image: url(../images/overons_line.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 1rem;
+  }
+}
+
+.team {
+  background-color: $dark;
+
+  &__partners {
+    // margin-bottom: 5rem;
+  }
+
+  &__title {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    padding: 5rem 0;
+    letter-spacing: .1rem;
+  }
+}
+
+.team__partner__image {
+  height: 25rem;
+  background-image: url(../images/aboutImage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.team__partner__name {
+  margin-top: 3rem;
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  letter-spacing: .05rem;
+}
+
+.team__partner__function {
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+  letter-spacing: .05rem;
+}
+
+.team__info {
+  font-family: Roboto;
+  color: white;
+  font-size: 20px;
+  margin: 10rem 0;
+
+  &-style {
+    border-bottom: .1rem white solid;
+  }
+}
